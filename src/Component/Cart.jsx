@@ -27,7 +27,7 @@ const Cart = () => {
       <div className="">
         <SP title={"Shopping Cart"} />
         <div>
-          <div className="flex justify-center items-center h-[20vh]">
+          <div className="flex justify-center flex-wrap items-center h-[20vh]">
             {buttons.map((btn) => {
               return (
                 <button className=" text-center text-white font-bold font-rubikMaps px-10 w-[15rem] bg-[#c8a165] py-4 ml-4">
