@@ -15,7 +15,7 @@ const CartComponent = () => {
   };
   return (
     <>
-      <div className="flex justify-center">
+      <div className="flex justify-center max-md:items-center max-md:mt-[150px]">
         <div className="bg-white shadow-md w-[62rem] px-10 h-[50vh]">
           <div className="bg-[#f6f6f6] w-full shadow-md mt-5 py-4 rounded-md font-bold flex justify-around">
             <p>Product</p>
