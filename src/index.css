@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@300;400;500;600;700;900&family=Rubik+Glitch&family=Rubik+Maps&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url('https://images.pexels.com/photos/972884/pexels-photo-972884.jpeg');
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-page-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('https://images.pexels.com/photos/8450219/pexels-photo-8450219.jpeg?auto=compress&cs=tinysrgb&w=600');
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
