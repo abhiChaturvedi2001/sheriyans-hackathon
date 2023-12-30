@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    scroll-behavior: smooth;
+}
+
 .banner-container {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url('https://images.pexels.com/photos/972884/pexels-photo-972884.jpeg');
     width: 100%;

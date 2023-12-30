@@ -39,7 +39,7 @@ const ProductPage = () => {
 
   return (
     <>
-      <div>
+      <div id="product">
         <h1 className="text-center my-4 text-2xl tracking-wider font-bold font-rubikMaps capitalize">
           Purchase online in ECOMMERCE{" "}
         </h1>

@@ -38,9 +38,9 @@ const SinglePage = () => {
     <>
       <div className=" min-h-screen">
         <SP title={"Single Product Page"} />
-        <div className="bg-white shadow-lg z-10 flex w-[70rem] px-5 py-5 min-h-[40vh] absolute top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2">
+        <div className="bg-white text-center shadow-lg z-10 flex  w-[70rem] max-lg:w-[40rem] max-md:w-[32rem] px-5 py-5 min-h-[40vh] absolute top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2">
           <img
-            className="w-[300px] h-[300px]"
+            className="w-[300px] max-md:mx-auto h-[300px]"
             src={singleProductData.image}
             alt=""
           />

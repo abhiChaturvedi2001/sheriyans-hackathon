@@ -14,7 +14,7 @@ const Body = () => {
             Your Favirot Shopping
           </h1>
           <button className="mt-4 text-xl border text-white px-4 py-4 cursor-pointer  font-rubikGlitch  w-[15rem] transition-all duration-100 hover:text-white hover:bg-black hover:border-none ">
-            Shop Now
+            <a href="#product">Shop Now</a>
           </button>
         </div>
       </div>
